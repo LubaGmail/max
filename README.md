@@ -1,4 +1,36 @@
-# Max
+# Max Angular 7
+
+## Bookmark
+https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/t/lecture/6655914?start=0
+
+## APIs
+https://angular.io/guide/template-syntax
+
+## install
+See files/commands.png
+PS C:\ws\ng\max> npm i --save bootstrap
+
+## Why Angular?
+- It updates dom reactively [()]
+
+## How Ng app gets bootstrapped?
+    src/index.html   	    <app-root></app-route>
+                            </script><script type="text/javascript" src="main.js">
+    
+    src/app.component.ts  	selector: 'app-route'
+    src/main.ts  		    bootstrapModule(AppModule)
+    src/app.module.ts	    bootstrap: [AppComponent]
+
+## Tuts
+intro:  https://www.youtube.com/watch?v=AaNZBrP26LQ&t=19s
+course: https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/content
+
+## Notes
+
+* To user banana in the box [(ngModule)]='name', import FormsModule in app.module.ts 
+
+
+============================================================================================================
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
 

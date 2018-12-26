@@ -1,0 +1,31 @@
+<div>
+  <h3>Servers</h3>
+ 
+  <input type='text' 
+    [(ngModel)]='serverName'
+    class='form-control'
+  />
+  <br>
+
+  <input type='text' 
+    (input)='onUpdateDesc($event)'
+    class='form-control'
+  />
+  <br>
+
+  <button class='btn btn-primary'
+    [disabled]='! allowNewServer'
+    (click)='onServerCreate()'
+  >Add Server </button>  {{ allowNewServer }}
+
+  <p *ngIf='serverCreated; else noserver'>Server created: {{serverName}}</p>
+  <ng-template #noserver>
+    <p>No server created.</p>
+  </ng-template>
+
+  <br><br>
+  <div>
+    <app-server></app-server>
+    <app-server></app-server>
+  </div>
+</div>
