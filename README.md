@@ -1,9 +1,14 @@
 # Max Angular 7
 
 ## Bookmark
-https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/t/lecture/6655924?start=0
+https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/t/lecture/6655930?start=0
+
+## Install
+npm i
+ng serve --port 4551
 
 ## Git
+git clone https://github.com/LubaGmail/max.git
 git commit -m 'some change'
 git push -u origin master
 
