@@ -6,6 +6,7 @@ https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/t/lecture/6655924
 ## Git
 git commit -m 'some change'
 git push -u origin master
+git pull origin master
 
 ## APIs
 https://angular.io/guide/template-syntax
