@@ -10,6 +10,7 @@ export class ServersComponent implements OnInit {
   serverName = 'Test Server';
   serverDesc = '';
   serverCreated = false;
+  servers = ['Test Server 1', 'Test Server 2'];
 
   constructor() {
     setTimeout( () => {
@@ -19,6 +20,7 @@ export class ServersComponent implements OnInit {
 
   onServerCreate() {
     this.serverCreated = true;
+    this.servers.push(this.serverName);
   }
 
   onUpdateDesc(event) {

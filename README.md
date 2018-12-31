@@ -1,7 +1,7 @@
 # Max Angular 7
 
 ## Bookmark
-https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/t/lecture/6655930?start=15
+https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/t/practice/270/introduction/
 
 ## Install
 npm i
